@@ -1,0 +1,27 @@
+.cv {
+    display: flex;
+    flex-direction: column;
+    gap: 2dvh;
+
+    margin: 5dvh 2dvw;
+
+    h1 {
+        background-color: darkblue;
+        color: white;
+        width: fit-content;
+        padding: 10px 20px;
+        align-self: center;
+        border-radius: 20px;
+    }
+
+    h2 {
+        color: darkblue;
+    }
+
+    > div {
+        padding: 1dvh;
+        background-color: white;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+}
